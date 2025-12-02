@@ -1,0 +1,6 @@
+Working through this project taught me a lot about Python and gave me more confidence to use it for real-world data analysis. 
+I learned how to manage large, messy datasets using pandas,from selectively loading millions of rows to cleaning, filtering, and transforming them efficiently which are skills I had never used like this before. 
+I also learned how to pull data by making API requests and handling JSON responses (which was very new to me). 
+As I progressed, I became comfortable merging datasets, creating new variables, visualizations with matplotlib, and applying statistical tools like correlations, lag analyses, and linear regression through scikit-learn. 
+Even implementing more techniques like threshold detection and piecewise regression pushed me to learn them from scratch and think creatively about how to translate ideas into code. 
+Overall, this project helped me realize how much Python enables me to do, and it significantly expanded both my technical skills and my confidence in using programming to answer desired questions.
