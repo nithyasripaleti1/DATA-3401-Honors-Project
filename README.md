@@ -1,48 +1,61 @@
 # Impact of Amazon Deforestation on Bird Diversity
 
-## Overview
-This project investigates the relationship between deforestation in the Amazon rainforest and changes in bird species diversity. Using publicly available environmental and biodiversity datasets, the analysis explores whether increasing deforestation rates are associated with declines in bird species presence across regions.
+## Project Overview
+This project analyzes the relationship between deforestation in the Amazon rainforest and changes in bird species diversity. Using publicly available environmental and biodiversity datasets, the analysis examines whether regions experiencing higher deforestation rates tend to show lower bird species richness over time.
+
+The project applies data techniques to an environmental sustainability problem and explores potential ecological risks associated with land-use change.
 
 
 ## Research Questions
-- How have deforestation rates changed across regions of the Amazon over time?
-- Are higher deforestation levels associated with reduced bird species diversity?
-- What regional or temporal patterns emerge when comparing land-use change and biodiversity data?
+- How have deforestation rates changed across different regions of the Amazon over time?
+- Is increased deforestation associated with reduced bird species diversity?
+- What regional and temporal patterns emerge when comparing land-use change with biodiversity data?
 
 
 ## Data Sources
-- **Deforestation Data:** Global Forest Wacth (GFW)
-- **Biodiversity Data:** Global Biodiversity Information Facility (GBIF)
-
+- **Deforestation Data:** Global Forest Watch (GFW)  
+  Satellite-derived deforestation metrics across Amazon regions.
+- **Biodiversity Data:** Global Biodiversity Information Facility (GBIF)  
+  Bird species occurrence records across Amazon ecosystems.
 
 
 ## Methodology
-The analysis follows a structured data science workflow:
 
-1. **Data Cleaning & Preprocessing**
-   - Handled missing values and inconsistent entries
-   - Filtered data to relevant geographic regions and time periods
-   - Merged deforestation and biodiversity datasets using shared spatial and temporal attributes
+### 1. Data Cleaning & Preprocessing
+- Handled missing values and inconsistent records
+- Filtered datasets to relevant geographic regions and overlapping time periods
+- Merged deforestation and biodiversity datasets using shared spatial and temporal attributes
 
-2. **Exploratory Data Analysis (EDA)**
-   - Examined trends in deforestation rates across regions
-   - Analyzed changes in bird species richness and occurrence
-   - Compared biodiversity metrics across areas with varying levels of deforestation
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed regional and temporal trends in deforestation rates
+- Examined bird species richness and occurrence patterns
+- Compared biodiversity metrics across areas with varying levels of deforestation intensity
 
-3. **Visualization & Interpretation**
-   - Created visualizations to highlight ecological trends and regional differences
-   - Interpreted results to assess potential links between habitat loss and biodiversity decline
-
+### 3. Visualization & Interpretation
+- Created visualizations to highlight ecological trends and regional differences
+- Interpreted observed patterns to assess potential links between deforestation and biodiversity decline
 
 
 ## Key Findings
 - Regions experiencing higher deforestation rates tend to show lower bird species diversity.
-- Temporal analysis suggests biodiversity declines often follow periods of intensified land-use change.
-- While correlation does not imply causation, the observed patterns highlight potential ecological risks associated with deforestation.
-
+- Temporal patterns suggest biodiversity declines often follow periods of intensified deforestation.
+- While the analysis identifies correlations rather than causal relationships, the results highlight potential ecological risks associated with habitat loss.
 
 
 ## Tools & Technologies
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Environment:** Jupyter Notebook  
+
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/amazon-deforestation-bird-diversity.git
+2. Install dependencies:
+   pip install pandas numpy matplotlib seaborn
+3. Launch Jupyter Notebook
+
+## Why This Project Matters
+
+Deforestation in the Amazon has significant implications for global biodiversity. By combining environmental and biodiversity datasets, this project demonstrates how data science can be applied to sustainability challenges and conservation-focused analysis.
