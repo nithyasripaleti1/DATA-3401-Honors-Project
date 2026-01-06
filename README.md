@@ -46,6 +46,3 @@ The analysis follows a structured data science workflow:
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Environment:** Jupyter Notebook  
-
-
-## Repository Structure
